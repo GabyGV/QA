@@ -1,0 +1,14 @@
+.productList{
+  text-align: center;
+  margin-left: 5%;
+  width: 90%;;
+}
+
+.UserListActionsColumn{
+  display: flex;
+  justify-content: space-evenly
+}
+
+.UserListActionsColumn-Button{
+  width: auto;
+}

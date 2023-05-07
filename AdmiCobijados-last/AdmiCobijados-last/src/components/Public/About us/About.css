@@ -1,0 +1,36 @@
+.textos {
+    margin-top: 35px;
+    margin-bottom: 35px;
+    margin-left: 3px; 
+    margin-right: 3px
+}
+
+.texto {
+    display: flex;
+    width: 42%;
+}
+
+.icono {
+    color: #0d6efd;
+    padding: 5px 15px 20px 15px; 
+    font-size: 20px
+}
+
+.subtitulo {
+    font-weight: 600; 
+    font-size: 1.2rem
+}
+
+.descripcion {
+    opacity: .8; 
+    font-size: .9em
+}
+
+@media (max-width: 770px) {
+    .textos {
+        flex-direction: column;
+    }
+    .texto {
+        width: 100%;
+    }
+}
